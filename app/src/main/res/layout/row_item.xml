@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+        
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+<!--                <ImageView-->
+<!--                    android:id="@+id/historyTuk"-->
+<!--                    android:src="@drawable/tuklistview"-->
+<!--                    android:layout_width="60dp"-->
+<!--                    android:layout_height="60dp" />-->
+            </LinearLayout>
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textSize="10sp"
+                    android:fontFamily="@font/segoeuil"
+                    android:text="TICKET ID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/historyTicketID"
+                    android:gravity="center"
+                    android:fontFamily="@font/segoeui"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:textSize="10sp"
+                    android:fontFamily="@font/segoeuil"
+                    android:text="VEHICLE NO"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/historyVehicleNo"
+                    android:gravity="center"
+                    android:fontFamily="@font/segoeui"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textSize="10sp"
+                    android:fontFamily="@font/segoeuil"
+                    android:text="DATE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/historyDate"
+                    android:gravity="center"
+                    android:fontFamily="@font/segoeui"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textSize="10sp"
+                    android:fontFamily="@font/segoeuil"
+                    android:text="TIME"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/historyTime"
+                    android:gravity="center"
+                    android:fontFamily="@font/segoeui"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="10sp"
+                    android:fontFamily="@font/segoeuil"
+                    android:text="BALANCE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/vehBalance"
+                    android:gravity="center"
+                    android:fontFamily="@font/segoeui"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    
+</LinearLayout>
